@@ -3,7 +3,7 @@ package com.luv2code.springdemo;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class JavaConfigDemoApp {
+public class SwimJavaConfigDemoApp {
 
 	public static void main(String[] args) {
 		// read spring config file
