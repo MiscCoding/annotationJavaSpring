@@ -6,6 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class SwimJavaConfigDemoApp {
 
 	public static void main(String[] args) {
+		
 		// read spring config file
 		AnnotationConfigApplicationContext context =
 				new AnnotationConfigApplicationContext(SportConfig.class);
@@ -17,6 +18,7 @@ public class SwimJavaConfigDemoApp {
 		
 		//call method to get the daily fortune
 		System.out.println(theCoach.getDailyFortune());
+		
 		//hahah
 		//close the content
 		context.close();
